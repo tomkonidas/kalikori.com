@@ -1,0 +1,22 @@
+{
+  "name": "kalikorioliveoil",
+  "version": "0.0.1",
+  "description": "Website for Kalikori Olive Oil company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomkonidas/kalikorioliveoil.git"
+  },
+  "author": "Tom Konidas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomkonidas/kalikorioliveoil/issues"
+  },
+  "homepage": "https://github.com/tomkonidas/kalikorioliveoil#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
