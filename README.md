@@ -1,2 +1,2 @@
-# jpcharlebois
-Portfolio website for Videographer JP Charlebois
+# kalikorioliveoil
+Website for Kalikori Olive Oil
