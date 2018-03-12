@@ -1,3 +1,0 @@
-Olive green: #666200
-green 2: #a2ae9b
-Yellow: #fedc00

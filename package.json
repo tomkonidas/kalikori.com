@@ -1,23 +1,24 @@
 {
   "name": "kalikorioliveoil",
-  "version": "0.0.1",
-  "description": "Website for Kalikori Olive Oil company",
+  "version": "1.0.0",
+  "description": "Website for Kalikori Olive Oil",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tomkonidas/kalikorioliveoil.git"
-  },
-  "author": "Tom Konidas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tomkonidas/kalikorioliveoil/issues"
-  },
-  "homepage": "https://github.com/tomkonidas/kalikorioliveoil#readme",
+  "repository": "https://github.com/tomkonidas/kalikorioliveoil.git",
+  "author": "Tom Konidas <tomkonidas@protonmail.ch>",
+  "license": "MIT",
   "dependencies": {
+    "bulma": "^0.6.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
