@@ -81,7 +81,7 @@ gulp.task('image', () => {
 
 
 // Clean & Build --------------------------------------------------------------
-gulp.task('build', ['js', 'sass', 'image', 'transfer','html','browser-sync']);
+gulp.task('build', ['js', 'sass', 'image', 'transfer','html']);
 
 gulp.task('clean', () => {
     del([target.dist]).then(paths => {
@@ -96,7 +96,7 @@ gulp.task('browser-sync', () => {
     });
 });
 
-gulp.task('watch', ['build'], () => {
+gulp.task('watch', ['build','browser-sync'], () => {
     gulp.watch([target.srcSASS], ['sass']);
     gulp.watch([target.srcFavicon], ['transfer']);
     gulp.watch([target.srcJS], ['js']);
