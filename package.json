@@ -8,7 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "bulma": "^0.6.2",
-    "global": "^4.3.2"
+    "global": "^4.3.2",
+    "natives": "^1.1.6"
   },
   "devDependencies": {
     "browser-sync": "^2.23.5",
